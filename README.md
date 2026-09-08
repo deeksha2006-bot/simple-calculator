@@ -1,5 +1,5 @@
 def calculator():
-    print("🧮 Welcome to Python Calculator 🧮")
+    print("Welcome to Python Calculator ")
     print("Operations: +  -  *  /")
 
     while True:
@@ -17,15 +17,13 @@ def calculator():
             if num2 != 0:
                 print("Result =", num1 / num2)
             else:
-                print("❌ Error! Division by zero.")
+                print(" Error! Division by zero.")
         else:
-            print("❌ Invalid operation!")
+            print("Invalid operation!")
 
         choice = input("\nDo you want to continue? (y/n): ")
         if choice.lower() != "y":
-            print("Goodbye! 👋")
+            print("Goodbye! ")
             break
-
-# Run the calculator
 calculator()
 

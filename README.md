@@ -18,7 +18,7 @@ def calculator():
                 print("Result =", num1 / num2)
             else:
                 print(" Error! Division by zero.")
-        else:
+         else:
             print("Invalid operation!")
 
         choice = input("\nDo you want to continue? (y/n): ")
